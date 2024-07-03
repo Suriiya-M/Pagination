@@ -1,0 +1,89 @@
+
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  	background: #000b1b;
+
+    color: snow;
+}
+
+.header 
+{
+    padding: 10px;
+    text-align: center;
+    /*background: #121212;*/
+    background: #192734;
+}
+
+.section 
+{
+	background: #000b1b;
+    padding: 20px;
+    
+}
+
+table 
+{
+    width: 100%;
+    border-collapse: collapse;
+    height: 60vh;
+    border-width: 0;
+
+
+
+}
+tr
+{
+	border-bottom: 1px solid white;
+}
+table th, table td {
+   
+    padding: 8px;
+    text-align: center;
+}
+
+.table th {
+  background-color: #f0f0f0;
+}
+.tab
+{
+	margin-top: -150px;
+}
+.footer
+{
+	display: flex;
+}
+.container
+{
+	display: block;
+	justify-content: right;
+	align-items: right;
+	text-align: right;
+	margin-left: auto;
+	padding-left: auto;
+	margin-right: 10px;
+}
+button
+{
+	border-color: skyblue;
+	background: none;
+	color: snow;
+	border-radius: 10px;
+	font-weight: 600;
+	border-style: solid;
+	margin: 0 5px;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+.but-jersey
+{
+	margin-left: 10px;
+	font-weight: bold;
+	font-weight: 700;
+}
+button:hover
+{
+	background: skyblue;
+}
